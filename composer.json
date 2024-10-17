@@ -1,0 +1,39 @@
+{
+    "name": "morci/turnos",
+    "description": "sistema de turnos",
+    "type": "project",
+    "license": "free",
+    "autoload": {
+        "psr-4": {
+            "Morci\\Turnos\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Julian Morcillo",
+            "email": "morcillo.juliand10@gmail.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "firebase/php-jwt": "v6.10.1",
+        "google/apiclient": "dev-main",
+        "google/apiclient-services": "v0.377.0",
+        "google/auth": "v1.42.0",
+        "guzzlehttp/guzzle": "7.9.x-dev",
+        "guzzlehttp/promises": "2.0.x-dev",
+        "guzzlehttp/psr7": "2.7.x-dev",
+        "monolog/monolog": "dev-main",
+        "paragonie/constant_time_encoding": "v3.0.0",
+        "paragonie/random_compat": "v9.99.100",
+        "phpseclib/phpseclib": "3.0.x-dev",
+        "psr/cache": "dev-master",
+        "psr/http-client": "dev-master",
+        "psr/http-factory": "1.1.0",
+        "psr/http-message": "dev-master",
+        "psr/log": "dev-master",
+        "ralouphie/getallheaders": "3.0.3",
+        "symfony/deprecation-contracts": "dev-main",
+        "phpmailer/phpmailer": "^6.9"
+    }
+}
